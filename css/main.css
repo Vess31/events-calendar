@@ -1,10 +1,18 @@
-@-moz-viewport { width: device-width; scale: 1; }
-@-ms-viewport { width: device-width; scale: 1; }
-@-o-viewport { width: device-width; scale: 1; }
-@-webkit-viewport { width: device-width; scale: 1; }
-@viewport { width: device-width; scale: 1; }
-
 html {
-  box-sizing: border-box;
-  font-family: "Merriweather", serif;
+  font-family: Merriweather, serif;
+}
+
+th {
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+td {
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  height: 9.8rem;
+}
+
+table {
+  border: 1px solid #ccc;
 }
